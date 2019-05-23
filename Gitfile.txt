@@ -1,0 +1,6 @@
+echo "# Testrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/neha-25/Testrepo.git
+git push -u origin master
